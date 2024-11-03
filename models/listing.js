@@ -9,8 +9,8 @@ const listingSchema = new Schema({
   description: String,
   image: {
     type: String,
-    default: "https://unsplash.com/illustrations/worker-character-on-with-climbing-equipment-conduct-roofing-works-repair-home-tile-house-rooftop-roofer-man-with-work-tools-renovate-residential-building-or-cottage-cartoon-vector-illustration-JJ51To-e-tc",
-    set: (v) => v === "" ? "https://unsplash.com/illustrations/worker-character-on-with-climbing-equipment-conduct-roofing-works-repair-home-tile-house-rooftop-roofer-man-with-work-tools-renovate-residential-building-or-cottage-cartoon-vector-illustration-JJ51To-e-tc" : v,
+    default: "https://images.unsplash.com/photo-1496328488450-9c5c5d555148?q=80&w=2532&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    set: (v) => v === "" ? "https://images.unsplash.com/photo-1496328488450-9c5c5d555148?q=80&w=2532&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" : v,
   },
   price: Number,
   location: String,

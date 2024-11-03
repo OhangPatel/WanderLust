@@ -183,7 +183,7 @@ const sampleListings = [
       title: "Modern Apartment in Tokyo",
       description:
         "Explore the vibrant city of Tokyo from this modern and centrally located apartment.",
-      image: "https://images.unsplash.com/photo-1480796927426-f609979314 bd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHRva3lvfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60",
+      image: "https://images.unsplash.com/photo-1416331108676-a22ccb276e35?q=80&w=2367&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       price: 2000,
       location: "Tokyo",
       country: "Japan",
